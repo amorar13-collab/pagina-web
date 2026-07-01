@@ -1,0 +1,59 @@
+/* Estilos basicos y fuentes limpias */
+body {
+    font-family: Arial, sans-serif; /* Fuente limpia, no extravagante */
+    text-align: center;             /* Centra el titulo y el cronometro */
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Efecto de color azul en el titulo */
+h1 {
+    color: black;
+    transition: 0.3s;
+}
+h1:hover {
+    color: blue;
+}
+
+/* Cajita para el cronometro */
+.caja-cronometro {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 15px 30px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#tiempo {
+    font-size: 35px;
+    margin: 0 0 15px 0;
+}
+
+/* Contenedor para alinear los dos bloques al centro de la pantalla */
+.contenedor-bloques {
+    display: flex;
+    justify-content: center; 
+    gap: 40px; /* Separacion igual entre ambos */
+}
+
+/* Bloques perfectamente cuadrados e iguales */
+.bloque-cuadrado {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 15px;
+    text-align: left; /* El texto de adentro se lee de izquierda a derecha */
+}
+
+/* Ajuste de la caja de escribir para que entre bien en el cuadrado */
+textarea {
+    width: 90%;
+    height: 80px;
+    resize: none; /* Evita que el usuario la deforme */
+}
+
+/* Ajuste del parrafo de salida para que no se desborde del cuadrado */
+#salida {
+    word-wrap: break-word; 
+}

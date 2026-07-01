@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tarea Ordenada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Mi Pagina Web</h1>
+
+    <div class="caja-cronometro">
+        <h2 id="tiempo">00:00:00</h2>
+        <button id="btn-iniciar">Iniciar</button>
+        <button id="btn-pausar">Pausar</button>
+        <button id="btn-reiniciar">Reiniciar</button>
+    </div>
+
+    <br><hr><br>
+
+    <div class="contenedor-bloques">
+        
+        <div class="bloque-cuadrado">
+            <h3>Escribe aqui:</h3>
+            <textarea id="entrada" placeholder="Escribe algo..."></textarea>
+            <br><br>
+            <button id="btn-pasar">Pasar Texto</button>
+        </div>
+        
+        <div class="bloque-cuadrado">
+            <h3>Texto al lado derecho:</h3>
+            <p id="salida"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
